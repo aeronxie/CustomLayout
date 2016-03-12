@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="custom" id="gTV-IL-0wX" customClass="CustomCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A0v-hi-1cD">
+                        <rect key="frame" x="8" y="8" width="124" height="124"/>
+                        <color key="backgroundColor" red="0.91372549020000005" green="0.1215686275" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="A0v-hi-1cD" secondAttribute="trailing" constant="8" id="Eqo-cj-w8Z"/>
+                <constraint firstAttribute="bottom" secondItem="A0v-hi-1cD" secondAttribute="bottom" constant="8" id="FBa-z0-pYv"/>
+                <constraint firstItem="A0v-hi-1cD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="ZLn-WJ-SBb"/>
+                <constraint firstItem="A0v-hi-1cD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="s3v-ta-Hpc"/>
+            </constraints>
+            <size key="customSize" width="145" height="137"/>
+            <connections>
+                <outlet property="imageView" destination="A0v-hi-1cD" id="Feo-c9-wuP"/>
+            </connections>
+            <point key="canvasLocation" x="306.5" y="414.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
